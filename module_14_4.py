@@ -20,7 +20,7 @@ connection.commit()
 
 
 # Инициализируем связь с Телеграмм-ботом
-api = "7568015001:AAHqLNvBjRkSVcQ4LVGsCuFTbwo0nDoqeV8"
+api = "****"
 bot = Bot(token=api)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
